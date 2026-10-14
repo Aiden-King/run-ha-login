@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rún — Home Assistant sign-in</title>
+  <!-- Home Assistant (IndieAuth) reads this to allow the app's return link. -->
+  <link rel="redirect_uri" href="easybuttonapp://ha-auth">
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; max-width: 34rem; margin: 3rem auto; padding: 0 1rem; color: #1b1b1b; background: #edebe4; }
+    @media (prefers-color-scheme: dark) { body { color: #e6e3da; background: #1a1c1e; } }
+  </style>
+</head>
+<body>
+  <h1>Rún</h1>
+  <p>This page identifies the Rún app when it signs in to your Home Assistant.
+     After you sign in, Home Assistant sends you back to the app.</p>
+  <p>The app only uses this access to set up what your Rún button does.</p>
+</body>
+</html>
